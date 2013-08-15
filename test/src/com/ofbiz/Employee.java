@@ -4,7 +4,7 @@ public class Employee {
 	private Long id;
 	private String name;
 	private Integer age;
-	private String passeord;
+	private String password;
 	
 	public Long getId() {
 		return id;
@@ -26,7 +26,7 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", age=" + age + " +",+"password+"]";
+		return "Employee [id=" + id + ", name=" + name + ", age=" + age + " ,+"+password+"]";
 	}
 	
 }
