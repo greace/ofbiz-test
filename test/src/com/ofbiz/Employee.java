@@ -4,6 +4,8 @@ public class Employee {
 	private Long id;
 	private String name;
 	private Integer age;
+	private String passeord;
+	
 	public Long getId() {
 		return id;
 	}
