@@ -15,6 +15,7 @@ public class Department {
 	public void setName(String name) {
 		this.name = name;
 	}
-	System.out.println("模型的创建");
+	
+	
 
 }
