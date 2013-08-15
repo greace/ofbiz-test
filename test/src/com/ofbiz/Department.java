@@ -3,7 +3,6 @@ package com.ofbiz;
 public class Department {
 	private Long id;
 	private String name;
-	private Employee employee;
 	public Long getId() {
 		return id;
 	}
